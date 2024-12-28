@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Railroad Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Model Railroad</h1>
+    </header>
+
+    <section class="engine-container">
+        <h2>Engines</h2>
+        <div id="engine-list">
+            <!-- List of engines will be dynamically added here -->
+        </div>
+        <button id="add-engine-btn">Add Engine</button>
+    </section>
+
+    <section class="train-layout">
+        <h2>Train Layout</h2>
+        <div id="train-layout-image">
+            <img src="images/layout.jpg" alt="Train Layout" />
+            <div id="engine-drag-area">
+                <!-- Drag-able engines will appear here -->
+            </div>
+        </div>
+    </section>
+
+    <section class="train-cars">
+        <h2>Cars</h2>
+        <div id="train-cars">
+            <!-- List of cars will be dynamically added here -->
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
